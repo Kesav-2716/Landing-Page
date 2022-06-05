@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#home{
+    background-color: #1f2937;
+    height: 550px;
+}
+#home .head{
+    min-height: 100px;
+}
+#home .head span h2{
+    float: left;
+    font-size: 24px;
+    color:#f9faf8;
+    padding: 20px 0 0 200px;
+}
+#home .head ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+}
+#home .head ul li{
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px 20px 0 0;
+}
+#home .first{
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-left:195px;
+    margin-top: 60px;
+    
+}
+#home .first h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+   
+}
+#home .first p{
+    font-size: 18px;
+    color:#e5e7eb;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+#home .first button{
+    background-color: #3883f6;
+    margin-top:10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+#home .second{
+    background-color:rgb(131, 127, 127);
+    height:250px ;
+    width: 550px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    
+}
+#home .second p{
+    text-align: center;
+    font-size: 24px;
+    color:#f9faf8;
+    padding-top: 100px;
+}
+#inform{
+    height: 500px;
+}
+#inform h1{
+    font-size: 36px;
+    color:#1f2937;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+#inform  .content{
+    display: flex;
+    justify-content: center;
+    }
+    #inform .content .box div{
+        width: 150px;
+        height: 150px;
+        border: 5px solid rgb(75, 119, 170);
+        border-radius: 10px;
+        margin: 30px 0 0 40px;
+    }
+    #inform .content .box p{
+        width: 150px;
+        height: 150px;
+        margin: 5px 0 0 40px;
+        font-size: 20px;
+        color: #1f2937;
+
+    }
+    #quotes{
+        height: 500px;
+        background-color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+    }
+#quotes div{
+    width: 800px;
+    height:400px;
+    margin:100px 0 0 0;
+}
+#quotes div  p{
+    font-size: 37px;
+    color: #1f2937;
+}
+#quotes div h2{
+    text-align: end;
+}
+#contact{
+    height: 300px;
+}
+#contact .hello{
+    width: 75%;
+    height: 150px;
+    background-color:#3883f6;
+    margin:100px 0 0 200px;
+    border-radius: 10px;
+    float: left;
+    
+}
+#contact .hello h2{
+    padding: 50px 0 0 90px;
+    color: #e5e7eb;
+    font-size: 28px;
+}
+#contact .hello p{
+    font-size: 20px;
+    color: #e5e7eb;
+    padding: 0 0 0 90px;
+}
+#contact .hello button{
+    float: right;
+   position: relative;
+   bottom: 30px;
+   margin-right: 100px;
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   border: 2px solid white;
+   background-color: #3883f6;
+   font-size: 23px;
+   color: #e5e7eb;
+}
+#footer{
+    background-color:#1f2937 ;
+    height: 100px;
+}
+#footer p{
+    text-align: center;
+    padding: 40px 0 0 0;
+    font-size: 20px;
+    color: #e5e7eb;
+}
